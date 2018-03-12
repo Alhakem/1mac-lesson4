@@ -82,3 +82,32 @@ h2{
 .ar h2{
 	font-size: 16px;
 }
+
+@media (max-width: 769px) {
+	
+	article,
+	article:nth-child(even){
+		flex-direction: column;
+	}
+
+	.comment::before{	
+		border-top: 10px solid transparent;
+		top:-20px;
+	}
+
+	article:nth-child(odd) .comment::before,
+	article:nth-child(even) .comment::before{
+		border-bottom:10px solid #fff; 
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.image {
+		text-align: center;
+		padding-bottom: 15px;
+
+	}
+
+}
