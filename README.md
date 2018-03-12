@@ -21,7 +21,7 @@ git pull
 {	
 	lang: "en",
 	answer: "",
-  question: "",
+  	question: "",
 	image: "no-image.jpg"
 },
     
