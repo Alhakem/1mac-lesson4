@@ -1,3 +1,6 @@
+::-moz-selection {background: #fff889;}
+::selection {background: #fff889;}
+
 body{
 	background: linear-gradient(114deg, #6464bf, #5454be);
 	font-family: 'Open Sans','Cairo', sans-serif;
