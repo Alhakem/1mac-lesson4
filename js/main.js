@@ -8,7 +8,7 @@ function printComments(data) {
 		var answer = data[i].answer;
 		var question = data[i].question;
 
-		if (image.length === 0) {
+		if (image.length === 0 || image === " ") {
 			image = "no-image.jpg";
 		}
 
