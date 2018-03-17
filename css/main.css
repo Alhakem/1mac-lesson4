@@ -4,6 +4,7 @@
 body{
 	background: linear-gradient(114deg, #6464bf, #5454be);
 	font-family: 'Open Sans','Cairo', sans-serif;
+	padding-bottom: 50px;
 }
 
 article{
