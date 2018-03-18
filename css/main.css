@@ -109,6 +109,70 @@ h2{
 .ar h2{
 	font-size: 16px;
 }
+#contributers{
+	display: none;
+}
+nav{
+	position: fixed;
+	top: 5px;
+	left: 4px;
+}
+
+ul{
+	background: linear-gradient( #fff, #e4e4e7, #e6edf8, #ffffff);
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 2px;
+}
+
+li{
+	display: flex;
+	padding: 10px;
+	
+	
+}
+a{
+	color: #6464bf;
+	text-decoration: none;
+	margin: 8px;
+}
+#contributers img, #git img{
+	width: 40px;
+	height: 40px;
+}
+
+#git img{
+	cursor: pointer;
+	-webkit-animation: balancing 2s ease-in-out infinite;
+	-moz-animation: balancing 2s ease-in-out infinite;
+	animation: balancing 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes balancing {
+    0%, 100% {
+		transform: rotateZ(15deg);
+	  }
+	  50% {
+		transform: rotateZ(-15deg);
+	  }
+}
+@-moz-keyframes balancing {
+    0%, 100% {
+		transform: rotateZ(15deg);
+	  }
+	  50% {
+		transform: rotateZ(-15deg);
+	  }
+}
+@keyframes balancing { 
+    0%, 100% {
+		transform: rotateZ(15deg);
+	  }
+	  50% {
+		transform: rotateZ(-15deg);
+	  }
+}
 
 @media (max-width: 769px) {
 	
@@ -136,5 +200,9 @@ h2{
 		padding-bottom: 15px;
 
 	}
+	nav{
+		position: relative;
+	}
+
 
 }
