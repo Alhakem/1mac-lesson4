@@ -36,9 +36,11 @@ function printContributors(contributors) {
 
 
 var git = document.getElementById('git');
+var icon = document.getElementById('icon');
 git.addEventListener('click', function(){
 	
 		members.style.display="block";
+		icon.style.animation="none";
 
 });
 

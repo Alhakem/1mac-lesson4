@@ -133,6 +133,38 @@ a{
 	height: 40px;
 }
 
+#git img{
+	cursor: pointer;
+	-webkit-animation: balancing 2s ease-in-out infinite;
+	-moz-animation: balancing 2s ease-in-out infinite;
+	animation: balancing 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes balancing {
+    0%, 100% {
+		transform: rotateZ(15deg);
+	  }
+	  50% {
+		transform: rotateZ(-15deg);
+	  }
+}
+@-moz-keyframes balancing {
+    0%, 100% {
+		transform: rotateZ(15deg);
+	  }
+	  50% {
+		transform: rotateZ(-15deg);
+	  }
+}
+@keyframes balancing { 
+    0%, 100% {
+		transform: rotateZ(15deg);
+	  }
+	  50% {
+		transform: rotateZ(-15deg);
+	  }
+}
+
 @media (max-width: 769px) {
 	
 	article,
