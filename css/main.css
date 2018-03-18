@@ -110,6 +110,27 @@ h2{
 	font-size: 16px;
 }
 
+nav{
+	position: relative;
+	top: 5px;
+	left: 2px;
+}
+
+
+li{
+	display: flex;
+	margin-bottom: 5px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	margin: 8px;
+}
+#contributers img, #git img{
+	width: 40px;
+	height: 40px;
+}
+
 @media (max-width: 769px) {
 	
 	article,
@@ -136,5 +157,6 @@ h2{
 		padding-bottom: 15px;
 
 	}
+
 
 }
