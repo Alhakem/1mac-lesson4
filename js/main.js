@@ -32,3 +32,14 @@ function printContributors(contributors) {
 		members.innerHTML += '<li class="image"><img src="images/'+pic+'" alt="'+pic+'"><a href="'+url+'" target="_BLANK">'+nickname+'</a></li>';
 	}
 }
+
+
+
+var git = document.getElementById('git');
+git.addEventListener('click', function(){
+	
+		members.style.display="block";
+
+});
+
+

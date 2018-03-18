@@ -109,7 +109,9 @@ h2{
 .ar h2{
 	font-size: 16px;
 }
-
+#contributers{
+	display: none;
+}
 nav{
 	position: relative;
 	top: 5px;
