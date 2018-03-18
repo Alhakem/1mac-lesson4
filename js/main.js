@@ -37,7 +37,7 @@ function printContributors(contributors) {
 
 var git = document.getElementById('git');
 git.addEventListener('click', function(){
-	members.style.display = members.style.display == "none" ? "block" : "none";	
+	members.style.display = members.style.display == "block" ? "none" : "block";	
 
 });
 
