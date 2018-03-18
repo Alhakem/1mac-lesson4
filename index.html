@@ -12,6 +12,14 @@
 </head>
 
 <body>
+<header id="header">
+    <nav id="nav">
+        <div>
+            <div id="git"><img id="icon" src="images/github.png" alt=""></div>
+            <ul id="contributers"></ul>
+        </div>
+    </nav>
+</header>
 <main id="content"></main>
     <script src="js/main.js"></script>
     <script>
@@ -478,8 +486,25 @@
             
         ];
 
+        var contributors =[
+            {
+                num: 1,
+                nickname: "Alhakem",
+                pic: "alhakem.jpg",
+                url:"https://github.com/Alhakem"
+            },
+
+            {
+                num: 2,
+                nickname: "adetech.aadl",
+                pic: "Adel.png",
+                url:"https://github.com/Adetec"
+            },
+        ]
+
 
         printComments(data);
+        printContributors(contributors);
 
     </script>
 
