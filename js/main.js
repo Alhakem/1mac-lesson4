@@ -15,10 +15,10 @@ function printComments(data) {
 		comment.innerHTML += '<article class="' + lang + '"><div class="image"><img src="images/' + image + '" alt=""></div><div class="comment"><p>' + answer + '</p><h2>' + question + '</h2></div></article>';
 	}
 }
-
+var members = document.getElementById("contributers");
 function printContributors(contributors) {
 	"use strict";
-	var members = document.getElementById("contributers");
+	
 	for (var i = 0; i < contributors.length; i++) {
 
 		var nickname = contributors[i].nickname;
@@ -32,5 +32,3 @@ function printContributors(contributors) {
 		members.innerHTML += '<li class="image"><img src="images/'+pic+'" alt="'+pic+'"><a href="'+url+'" target="_BLANK">'+nickname+'</a></li>';
 	}
 }
-
-
