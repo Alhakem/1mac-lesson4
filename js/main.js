@@ -1,6 +1,7 @@
+var comment = document.getElementById("content");
 function printComments(data) {
 	"use strict";
-	var comment = document.getElementById("content");
+	
 	for (var i = 0; i < data.length; i++) {
 
 		var lang = data[i].lang;
@@ -42,3 +43,7 @@ git.addEventListener('click', function(){
 });
 
 
+
+comment.addEventListener('click', function(){
+	members.style.display = "none";
+})
