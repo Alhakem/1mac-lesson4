@@ -117,6 +117,7 @@ nav{
 	position: fixed;
 	top: 5px;
 	left: 4px;
+	z-index: 1;
 }
 
 ul{
@@ -138,6 +139,10 @@ a{
 	text-decoration: none;
 	margin: 8px;
 }
+#contributers {
+	max-height: calc(100vh - 100px);
+	overflow-y: scroll;
+}
 #contributers img, #git img{
 	width: 40px;
 	height: 40px;
@@ -148,6 +153,19 @@ a{
 	-webkit-animation: balancing 2s ease-in-out infinite;
 	-moz-animation: balancing 2s ease-in-out infinite;
 	animation: balancing 2s ease-in-out infinite;
+}
+
+nav ::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+nav ::-webkit-scrollbar-track {
+	background: #fff;
+}
+ 
+nav ::-webkit-scrollbar-thumb {
+
+    background: #ccc;
 }
 
 @-webkit-keyframes balancing {
